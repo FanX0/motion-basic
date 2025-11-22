@@ -1,11 +1,7 @@
-import { motion } from "motion/react";
+import HomeLayout from "@/components/layout/HomeLayout";
 
 const Home = () => {
-  return (
-    <div>
-      <motion.div className="w-20 h-20 bg-red-500" initial={{ rotate:0 }} animate={{ rotate:360 }} transition={{ duration:100 }}/>
-    </div>
-  );
+  return <HomeLayout>Home</HomeLayout>;
 };
 
 export default Home;
